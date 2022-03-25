@@ -28,13 +28,20 @@ php bin/console doctrine:migration:migrate
 ```
 ***
 
-### Thirdly, seed the database using fixtures yaml files
+### Thirdly, seed Student and Course Tables using fixtures yaml files
 Run the command:
 ```
 php bin/console hautelook:fixtures:load
 ```
 
 ### Routes
+#### Register a new student
+_Despite seeding Student table with fixtures data, we can register a new student via following API_
+```
+Path: /v1/student/register
+METHOD: POST
+Request: JSON. Fields: email, fullName, and password.
+```
 #### login
 ```
 Path: /login_check
