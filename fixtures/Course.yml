@@ -1,0 +1,4 @@
+App\Entity\CourseEntity:
+  dummy_courses{1..15}:
+    name: C<current()>
+    capacity: <current()>

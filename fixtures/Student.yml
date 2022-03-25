@@ -1,0 +1,14 @@
+App\Entity\StudentEntity:
+  student_dev_drive:
+    __construct: false
+    email: dev@studydrive.net
+    roles: ['ROLE_STUDENT']
+    password: 123456
+    fullName: Study Drive Team
+
+  dummy_students{1..25}:
+    __construct: false
+    email: <email()>
+    roles: ['ROLE_STUDENT']
+    password: 123456
+    fullName: <name()>

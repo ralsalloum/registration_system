@@ -1,0 +1,15 @@
+App\Request\StudentRegisterRequest:
+  properties:
+    email:
+      - NotBlank: ~
+    password:
+      - NotBlank: ~
+    fullName:
+      - NotBlank: ~
+
+App\Request\CourseRegisterByStudentRequest:
+  properties:
+    studentUserId:
+      - NotBlank: ~
+    courseId:
+      - NotBlank: ~
