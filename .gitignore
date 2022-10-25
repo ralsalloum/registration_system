@@ -37,9 +37,9 @@ yarn-error.log
 .idea/**/uiDesigner.xml
 
 
-.env
+#.env
 .env.test
-/.env
+#/.env
 # Gradle:
 .idea/**/gradle.xml
 .idea/**/libraries
